@@ -1,0 +1,31 @@
+[1mdiff --git a/BY b/BY[m
+[1m--- a/BY[m
+[1m+++ b/BY[m
+[36m@@ -1 +1 @@[m
+[31m-Subproject commit e5cbb9e941ed395f7d07977d3628a28c95d194d8[m
+[32m+[m[32mSubproject commit e5cbb9e941ed395f7d07977d3628a28c95d194d8-dirty[m
+[1mdiff --git a/gradle_demo/.idea/gradle.xml b/gradle_demo/.idea/gradle.xml[m
+[1mindex ba1ec5c..611e7c8 100644[m
+[1m--- a/gradle_demo/.idea/gradle.xml[m
+[1m+++ b/gradle_demo/.idea/gradle.xml[m
+[36m@@ -1,5 +1,6 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+[32m+[m[32m  <component name="GradleMigrationSettings" migrationVersion="1" />[m
+   <component name="GradleSettings">[m
+     <option name="linkedExternalProjectsSettings">[m
+       <GradleProjectSettings>[m
+[1mdiff --git a/gradle_demo/build.gradle b/gradle_demo/build.gradle[m
+[1mindex 71eccba..5fade10 100644[m
+[1m--- a/gradle_demo/build.gradle[m
+[1m+++ b/gradle_demo/build.gradle[m
+[36m@@ -21,4 +21,8 @@[m [mdependencies {[m
+ [m
+ test {[m
+     useJUnitPlatform()[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mtestImplementation('org.springframework.boot:spring-boot-starter-test') {[m
+[32m+[m[32m    exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'[m
+ }[m
+\ No newline at end of file[m
