@@ -1,9 +1,11 @@
 package com.example.demo.Mapper;
 
 import com.example.demo.po.user;
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Select;
 
-@Repository
 public interface UserMapper {
-    public user selectById(int id);
+
+    @Select("select * from user where id=#{id}")
+    user selectById(int id);
+
 }

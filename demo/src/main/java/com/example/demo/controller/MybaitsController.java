@@ -13,11 +13,11 @@ public class MybaitsController {
     private UserService userService;
 
     @RequestMapping("mybatis")
-    public String MText(){
+    public user MText(){
         user user=userService.selectById(1);
         if(user != null){
-            return user.toString();
+            return user;
         }
-        return "没有数据";
+        return null;
     }
 }

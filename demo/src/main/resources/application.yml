@@ -19,7 +19,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-
-mybatis:
-  config-location: classpath:mapping/*Mapper.xml
-  type-aliases-package: com.example.demo
