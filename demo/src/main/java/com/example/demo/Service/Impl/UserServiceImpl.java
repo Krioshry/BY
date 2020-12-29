@@ -39,4 +39,10 @@ public class UserServiceImpl implements UserService {
         return users;
     }
 
+    @Override
+    public user checkUser(String username, String password) {
+        return userMapper.chcekUser(username,password);
+    }
+
+
 }

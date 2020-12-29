@@ -1,0 +1,26 @@
+@font-face {font-family: "iconfont";
+  src: url('./font_seop24v5vbs/iconfont.eot?t=1607677407062'); /* IE9 */
+  src: url('./font_seop24v5vbs/iconfont.eot?t=1607677407062#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOcAAsAAAAAB7wAAANOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDFIMFATYCJAMMCwgABCAFhG0HRhvbBhEVnKXIfh6Ybl2msbKOdJDHUx8r6km65+B5rKveT9I1NdUDaYUTQJ5kNdZHwAkQIFZ9gItzTpO6MFGXYzV78ugLSTugLMc/7h3/hhfYfJblMse27lMXYBxQoGNOkIALKAvE0xCvZqBvHfRcDQEcUhQkVarVaYKNweskgPTp2b0jdk2DGckXbASrZ6RBFuDCVjPVdWB++nl5TfFsULg0Xs8G3ap2ocIz61mgnvA/bWIdk9czAco40EBBYEDa9VpaoPNIQRrHkpjxdAuDoNby//9PyrFl1kn/eArEwssNAiAPUQXPrJAOgWeBZ6AA0ABYgA2MAc4BH7WowQQFhYWHhUWEj/Z6m3o8TXy+Zn5/xqoyIWwOUUuU4vE4jsfXTFxVU2eglCXepsF+f6xMPXx0yHlPmlrjrRp6yZ+p1/r6hM7egpqwOStk41bRE7d1ny12SKxZqiYO/w4tZ9/YszuPFZtnbU2QrXv33UrTE/qo+fNVH58Zs6KyMqlhdenQQSCsLrIgEF+h6L0lcmqbtSBNVT1WZNaX5V0vEFA1US08smex60+TT4Nl7jjTM9UeETVRgkbLqKjcGOk9ffIgQ8lLzVldr56zzg3x6pzgXufc8GLrOVGrItdFrSw6p+jKqHWRq1qunaYOrgkY3bhtDdVs4tDO0kEm9Hc1pkH9Hnr8oc0z/6S5gkes7qlX5q3UPVePCHbRAYD/tE9PSIn13V8IIDCz8/Bh7UPLfLXdBoBHP5s9Ze7/DHQd9juzCvxTXGKFsfmeVhuTE3Jcq6ZyxYUCeB3g/ykEiPCUXxZNDoFg17gKKAJIBo1NFmLwBcGFm5JgYVMeHAqoPt5NpEFoxAQC+U1lIITZBYoQToEmzA3E4J+AixhvwSIsDQ6AZ7sZI/va8MCoBC3oH7RmnijQS5jlX9G9BsVVfkp6Im+tH4o0b8YvOCGv0Wd7u1KEgHge4czWw2GYYeG5QyOpF1maLKO+J6VmHoPQAUOKQBbQfkDLmE0ori3C1vuvkPMyUHgE1WJ8QmzTNg4KqZyAXCQTCfUs52zenJIQBBA2G4Eza4YGgxlY+pt1kCFSniO0aGR+NaJK0v1l4/dbBzi8L+mUaDHEt2r6vzS2hFNSMddBAAAA') format('woff2'),
+  url('./font_seop24v5vbs/iconfont.woff?t=1607677407062') format('woff'),
+  url('./font_seop24v5vbs/iconfont.ttf?t=1607677407062') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./font_seop24v5vbs/iconfont.svg?t=1607677407062#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bianzubeifen:before {
+  content: "\e606";
+}
+
+.icon-bianzubeifen4:before {
+  content: "\e609";
+}
+

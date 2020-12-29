@@ -16,4 +16,6 @@ public interface UserService {
     void Update(user user);
 
     List<user> list();
+
+    user checkUser(String username,String password);
 }

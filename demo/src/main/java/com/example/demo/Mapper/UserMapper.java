@@ -19,9 +19,12 @@ public interface UserMapper {
     @Delete("delete from user where id=#{id}")
     void delete(int id);
 
-    @Update("update text set username=#{username},password=#{password} where id=#{id}")
+    @Update("update user set username=#{username},password=#{password} where id=#{id}")
     void update(user user);
 
     @Select("select * from user")
     List<user> list();
+
+    @Select("select * from user where username=#{username} and password=#{password}")
+    user chcekUser(String username,String password);
 }
