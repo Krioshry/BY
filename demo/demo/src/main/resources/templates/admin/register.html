@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html class=" responsive" lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#171a21">
+    <title>创建您的帐户</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link href="https://store.st.dl.pinyuncloud.com/public/shared/css/motiva_sans.css?v=GvhJzpHNW-hA&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/shared/css/shared_global.css?v=Ees51BsBNwIC&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/shared/css/buttons.css?v=l3li_MNwxNDv&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/css/v6/store.css?v=g6TG1Mte9k9C&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/shared/css/joinsteam.css?v=YNQ-sJyEYqCE&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/shared/css/login.css?v=uAKvK5VO5Ue5&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/css/v6/cart.css?v=UJeL-w80fPgQ&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+    <link href="https://store.st.dl.pinyuncloud.com/public/shared/css/shared_responsive.css?v=nZoH3ohA_bdx&amp;l=schinese&amp;_cdn=china_pinyuncloud" rel="stylesheet" type="text/css" >
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:site" content="@steam" />
+
+    <meta property="og:title" content="创建您的帐户">
+    <meta property="twitter:title" content="创建您的帐户">
+    <meta property="og:type" content="website">
+    <meta property="fb:app_id" content="105386699540688">
+    <meta property="og:site" content="Steam">
+
+
+    <link rel="image_src" href="https://store.st.dl.pinyuncloud.com/public/shared/images/responsive/share_steam_logo.png">
+    <meta property="og:image" content="https://store.st.dl.pinyuncloud.com/public/shared/images/responsive/share_steam_logo.png">
+    <meta name="twitter:image" content="https://store.st.dl.pinyuncloud.com/public/shared/images/responsive/share_steam_logo.png" />
+    <meta property="og:image:secure" content="https://store.st.dl.pinyuncloud.com/public/shared/images/responsive/share_steam_logo.png">
+
+
+
+
+</head>
+<body class="v6 global joinsteam steam responsive_page">
+<div class="responsive_page_frame with_header">
+    <div class="responsive_page_content">
+        <div id="responsive_store_nav_ctn"></div><div data-cart-banner-spot="1"></div>
+        <div class="responsive_page_template_content">
+            <div class="page_content  steam">
+                    <div class="create_account_form_container" id="cart_area" method="post" th:action="@{/admin/register}">
+                        <form id="create_account" name="create_account" >
+                            <div id="account_form_box">
+                                <div class="join_form">
+                                    <div class="section_title">
+                                        创建您的帐户
+                                    </div>
+                                    <div class="form_row row_flex">
+                                        <div class="form_area">
+                                            <label for="username"请输入注册的账号</label>
+                                            <input type="text" maxlength="255" name="username" id="username" />
+                                        </div>
+                                    </div>
+                                    <div class="form_row row_flex">
+                                        <div class="form_area">
+                                            <label class="reenter_row" for="password">请输入注册的密码</label>
+                                            <input type="text" maxlength="255" name="password" id="password" />
+                                        </div>
+                                    </div>
+                                    <div class="form_row">
+                                        <div id="priv_and_sub">
+                                            <button type="submit" form="create_account" id="createAccountButton" class="joinsteam_button btn_blue_steamui btn_medium">
+                                                <span>注册</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+            <!-- End Main Background -->
+
+            <!-- Footer -->
+
+        </div>	<!-- responsive_page_legacy_content -->
+        
+    </div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html><!-- End Footer -->
